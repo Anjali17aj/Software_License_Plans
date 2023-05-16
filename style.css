@@ -1,0 +1,71 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  h1{
+        font-size: 3rem;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .cost-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    gap: 2rem;
+  }
+
+  .plan {
+    flex: 1;
+    max-width: 450px;
+    padding: 20px;
+    background-color: #F1F6F9;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #454545;
+    margin-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .plan-price {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .plan-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .plan-features li {
+    margin-bottom: 20px;
+  }
+
+  .button {
+    padding: 15px;
+    background-color:#4F4557;
+    color: #F4EEE0;
+    border-radius: 5px;
+    border: none;
+  }
+
+  footer {
+    text-align: center;
+    color:#454545;
+  }
+
+  @media (max-width: 1250px) {
+    .pricing-container {
+      flex-direction: column;
+      height: 100%;
+    }
+  }
+  
