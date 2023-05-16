@@ -1,11 +1,13 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-color: #2D2727;
   }
 
   h1{
         font-size: 3rem;
         text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #EFF5F5;
   }
   .cost-container {
     display: flex;
